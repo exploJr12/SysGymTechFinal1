@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALUMNO\\Desktop\\PSGEsfe1\\SysGymTechFinal1\\SysGymT.EntidadesDeNegocio\\SysGymT.EntidadesDeNegocio.csproj": {}
+    "C:\\Users\\nombr\\OneDrive\\Escritorio\\PSGEsfe1\\SysGymTechFinal1\\SysGymT.EntidadesDeNegocio\\SysGymT.EntidadesDeNegocio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALUMNO\\Desktop\\PSGEsfe1\\SysGymTechFinal1\\SysGymT.EntidadesDeNegocio\\SysGymT.EntidadesDeNegocio.csproj": {
+    "C:\\Users\\nombr\\OneDrive\\Escritorio\\PSGEsfe1\\SysGymTechFinal1\\SysGymT.EntidadesDeNegocio\\SysGymT.EntidadesDeNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALUMNO\\Desktop\\PSGEsfe1\\SysGymTechFinal1\\SysGymT.EntidadesDeNegocio\\SysGymT.EntidadesDeNegocio.csproj",
+        "projectUniqueName": "C:\\Users\\nombr\\OneDrive\\Escritorio\\PSGEsfe1\\SysGymTechFinal1\\SysGymT.EntidadesDeNegocio\\SysGymT.EntidadesDeNegocio.csproj",
         "projectName": "SysGymT.EntidadesDeNegocio",
-        "projectPath": "C:\\Users\\ALUMNO\\Desktop\\PSGEsfe1\\SysGymTechFinal1\\SysGymT.EntidadesDeNegocio\\SysGymT.EntidadesDeNegocio.csproj",
-        "packagesPath": "C:\\Users\\ALUMNO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALUMNO\\Desktop\\PSGEsfe1\\SysGymTechFinal1\\SysGymT.EntidadesDeNegocio\\obj\\",
+        "projectPath": "C:\\Users\\nombr\\OneDrive\\Escritorio\\PSGEsfe1\\SysGymTechFinal1\\SysGymT.EntidadesDeNegocio\\SysGymT.EntidadesDeNegocio.csproj",
+        "packagesPath": "C:\\Users\\nombr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nombr\\OneDrive\\Escritorio\\PSGEsfe1\\SysGymTechFinal1\\SysGymT.EntidadesDeNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ALUMNO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nombr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

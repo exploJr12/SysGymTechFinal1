@@ -9,165 +9,165 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SysGymT.UI.AppWebAspCore
 build_property.RootNamespace = SysGymT.UI.AppWebAspCore
-build_property.ProjectDir = C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.UI.AppWebAspCore\
+build_property.ProjectDir = C:\Users\nombr\OneDrive\Escritorio\PSGEsfe1\SysGymTechFinal1\SysGymT.UI.AppWebAspCore\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.UI.AppWebAspCore
+build_property.MSBuildProjectDirectory = C:\Users\nombr\OneDrive\Escritorio\PSGEsfe1\SysGymTechFinal1\SysGymT.UI.AppWebAspCore
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Customer/Create.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Customer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Customer/Delete.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Customer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Customer/Details.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Customer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Customer/Edit.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Customer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Customer/Index.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Home/Index.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Home/Privacy.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Machines/Create.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Machines/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjaGluZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Machines/Delete.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Machines/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjaGluZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Machines/Details.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Machines/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjaGluZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Machines/Edit.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Machines/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjaGluZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Machines/Index.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Machines/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjaGluZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Products/Create.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Products/Delete.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Products/Details.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Products/Edit.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Products/Index.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Rol/Create.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Rol/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Rol/Delete.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Rol/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Rol/Details.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Rol/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Rol/Edit.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Rol/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Rol/Index.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Rol/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Service/Create.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Service/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Service/Delete.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Service/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Service/Details.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Service/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Service/Edit.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Service/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Service/Index.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Shared/Error.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/CambiarPassword.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/CambiarPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYW1iaWFyUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Create.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Delete.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Details.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Edit.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Index.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Login.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Usuario/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/_ViewImports.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/_ViewStart.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALUMNO/Desktop/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Shared/_Layout.cshtml]
+[C:/Users/nombr/OneDrive/Escritorio/PSGEsfe1/SysGymTechFinal1/SysGymT.UI.AppWebAspCore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-is3q528qhl
