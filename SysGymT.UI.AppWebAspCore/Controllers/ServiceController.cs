@@ -24,9 +24,9 @@ namespace SysGymT.UI.AppWebAspCore.Controllers
         }
 
         // GET: RolController/Details/5
-        public async Task<IActionResult> Details(int id)
+        public async Task<IActionResult> Details(int id_Service)
         {
-            var service = await serviceBL.GetByIdAsync(new Service { Id_Service = id });
+            var service = await serviceBL.GetByIdAsync(new Service { Id_Service = id_Service });
             return View(service);
         }
 

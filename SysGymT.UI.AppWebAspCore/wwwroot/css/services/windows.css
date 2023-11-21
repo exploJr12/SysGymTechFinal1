@@ -1,0 +1,100 @@
+﻿body {
+    background-color: #212121;
+    color: #ffd800;
+}
+
+.form-group,
+input,
+select,
+.form-check {
+    background: none;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    color: #000;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+    .btn-primary:hover {
+        background-color: #ffdb58;
+    }
+
+a {
+    color: #ffc107;
+}
+
+.main-div {
+    background-color: #000;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid 5px #FFB800;
+    border-radius: 20px;
+}
+
+.form-control {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    text-align: center;
+}
+
+.form-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #007bff;
+    background-color: #007bff;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0.25rem;
+}
+
+#cancel-button {
+    margin-right: 200px !important;
+    margin-left: 0 !important; /* Asegúrate de restablecer el margen izquierdo */
+}
+
+.create-title {
+    text-align: center;
+}
+
+.form-group.form-check {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+}
+
+.form-check-input {
+    margin-top: 5px; /* Ajusta el espacio entre el label y el checkbox */
+}
+
+.details-list {
+    display: flex;
+    justify-content: center;
+}
+
+    .details-list dt {
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    .details-list dd {
+        text-align: left;
+    }

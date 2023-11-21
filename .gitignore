@@ -1,1 +1,21 @@
+# .gitignore
+
+# Carpeta generada por Visual Studio
+.vs/
+
+# Archivos y carpetas generados por la compilación
+bin/
+obj/
+
+# Carpeta de configuración de Visual Studio
+SysGymT/config/
+
+# Otros archivos generados durante el desarrollo
 *.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Otros archivos generados por la compilación
+*.dll
+*.pdb

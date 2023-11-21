@@ -4,44 +4,69 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="~/css/services/index.css"> <!-- Reemplaza con la ruta correcta al archivo CSS -->
+</head>
+<body>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Crear</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name_Service)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descryption)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name_Service)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descryption)
-            </td>
-            <td>
-                <td class="botonestabla">
-                        @Html.ActionLink("Modificar", "Edit", new { Id_Service = item.Id_Service}, new { @class = "btn btn-success" })
-                </td>
-                <td class="botonestabla">
-                        @Html.ActionLink("Ver", "Details", new { Id_Service = item.Id_Service }, new { @class = "btn btn-info" })
-                </td>
-                <td class="botonestabla">
-                        @Html.ActionLink("Eliminar", "Delete", new { Id_Service = item.Id_Service }, new { @class = "btn btn-danger" })
-                </td>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <h1>Servicios</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-warning">Crear</a>
+    </p>
+    <div class="main-container">
+        <!-- Agrega el contenedor principal si es necesario -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name_Service)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Descryption)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name_Service)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Descryption)
+                        </td>
+                        <td>
+                        <td class="botonestabla">
+                            <a asp-action="Edit" asp-route-Id_Service="@item.Id_Service" class="edit-button">
+                                <img src="~/img/machines/editar.png" class="image-inside-button" />
+                            </a>
+                        </td>
+
+                        <td class="botonestabla">
+                            <a asp-action="Details" asp-route-Id_Service="@item.Id_Service" class="btn btn-info see-button">
+                                <img src="~/img/machines/see-icon.png" class="image-inside-button" />
+                            </a>
+                        </td>
+
+                        <td class="botonestabla">
+                            <a asp-action="Delete" asp-route-Id_Service="@item.Id_Service" class="btn btn-danger delete-button">
+                                <img src="~/img/machines/trash-icon.png" class="image-inside-button" />
+                            </a>
+                        </td>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

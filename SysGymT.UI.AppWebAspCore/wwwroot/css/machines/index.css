@@ -88,7 +88,7 @@ p, table, th, td, a {
 
 .main-container {
     background-color: #2B2A24;
-   /* border: 30px solid #2B2A24;*/
+    border: 5px solid #FFB800;
     border-radius: 20px;
 }
 

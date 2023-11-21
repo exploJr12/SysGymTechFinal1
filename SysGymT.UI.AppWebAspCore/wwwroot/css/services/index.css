@@ -64,6 +64,8 @@ p, table, th, td, a, h1 {
     transition: background-color 0.3s, border-color 0.3s;
     display: flex;
     align-items: center;
+
+    width: 55px;
 }
 
     .see-button:hover {

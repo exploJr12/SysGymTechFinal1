@@ -3,13 +3,13 @@
 @{
     ViewData["Title"] = "Edit";
 }
+<link rel="stylesheet" href="~/css/services/windows.css">
 
-<h1>Edit</h1>
 
-<h4>Service</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 main-div">
+        <h1 class="create-title">Modificar</h1>
+        <hr />
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id_Service" />
@@ -23,14 +23,17 @@
                 <input asp-for="Descryption" class="form-control" />
                 <span asp-validation-for="Descryption" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+
+            <div class="form-group text-center">
+                <input type="submit" value="Guardar" class="btn btn-warning" />
+                <a asp-action="Index" class="btn btn-danger ml-2">Cancelar</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

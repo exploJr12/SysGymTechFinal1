@@ -4,27 +4,28 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<link rel="stylesheet" href="~/css/machines/create.css">
 
-<div>
-    <h4>Service</h4>
+<div class="main-div">
+    <h3>Detalles</h3>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Name_Service)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Name_Service)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Descryption)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Descryption)
         </dd>
     </dl>
+    <div class="text-center">
+        <a asp-action="Edit" asp-route-id="@Model?.Id_Service" class="btn btn-warning">Modificar</a> |
+        <a asp-action="Index" class="btn btn-danger">Volver a la lista</a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id_Service">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+

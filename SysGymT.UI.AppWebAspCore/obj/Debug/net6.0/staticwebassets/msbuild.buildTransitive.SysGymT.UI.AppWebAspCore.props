@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\SysGymT.UI.AppWebAspCore.props" />
-</Project>
