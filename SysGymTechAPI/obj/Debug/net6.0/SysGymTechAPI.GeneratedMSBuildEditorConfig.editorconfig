@@ -9,15 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SysGymTechAPI
 build_property.RootNamespace = SysGymTechAPI
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymTechAPI\
-=======
-build_property.ProjectDir = C:\Users\repco\source\repos\SysGymTechFinal1\SysGymTechAPI\
->>>>>>> 4f67df5cccf41a03bc7327fb32517070277c91b3
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\repco\source\repos\SysGymTechFinal1\SysGymTechAPI
+build_property.MSBuildProjectDirectory = C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymTechAPI
 build_property._RazorSourceGeneratorDebug = 
