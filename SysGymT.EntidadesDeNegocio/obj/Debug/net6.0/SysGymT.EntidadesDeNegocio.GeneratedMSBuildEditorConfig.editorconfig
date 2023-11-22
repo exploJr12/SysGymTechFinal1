@@ -8,10 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SysGymT.EntidadesDeNegocio
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\nombr\OneDrive\Escritorio\PSGEsfe1\SysGymTechFinal1\SysGymT.EntidadesDeNegocio\
-=======
-build_property.ProjectDir = C:\Users\repco\source\repos\SysGymTechFinal1\SysGymT.EntidadesDeNegocio\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
->>>>>>> 4f67df5cccf41a03bc7327fb32517070277c91b3

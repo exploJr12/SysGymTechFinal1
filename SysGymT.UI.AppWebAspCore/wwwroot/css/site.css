@@ -4,16 +4,6 @@ body {
     background-color: #cfd8dc;
 }
 
-body,
-html {
-    height: 100%;
-}
-
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
-    background-color: transparent;
-}
 
 #wrapper {
     padding-left: 0;
@@ -56,12 +46,8 @@ html {
 }
 
 #wrapper.toggled #page-content-wrapper {
-    position: absolute;
+    position: relative;
     margin-right: -220px;
-}
-
-.navbar {
-    padding: 0;
 }
 
 .sidebar-nav {
@@ -91,7 +77,6 @@ html {
             background-color: #1c1c1c;
             -webkit-transition: width 0.2s ease-in;
             -moz-transition: width 0.2s ease-in;
-            -ms-transition: width 0.2s ease-in;
             transition: width 0.2s ease-in;
         }
 
@@ -105,11 +90,11 @@ html {
             .sidebar-nav li:hover:before,
             .sidebar-nav li.open:hover:before {
                 width: 100%;
-                -webkit-transition: width 0.2s ease-in;
-                -moz-transition: width 0.2s ease-in;
-                -ms-transition: width 0.2s ease-in;
-                transition: width 0.2s ease-in;
+                -webkit-transition: width 0.1s ease-in;
+                -moz-transition: width 0.1s ease-in;
+                transition: width 0.1s ease-in;
             }
+
 
         .sidebar-nav li a {
             display: block;
@@ -135,111 +120,16 @@ html {
     position: relative;
     width: 100%;
     display: inline-block;
+    padding-bottom: 1em;
 }
 
 .sidebar-brand {
     height: 65px;
     position: relative;
     background: #212531;
-    background: linear-gradient(to right bottom, #FFD700 50%, #778899 50%);
-    padding-top: 1em;
+    padding-top: 0.5em;
 }
 
-    .sidebar-brand a {
-        color: #ddd;
-    }
-
-        .sidebar-brand a:hover {
-            color: #fff;
-            text-decoration: none;
-        }
-
-.dropdown-header {
-    text-align: center;
-    font-size: 1em;
-    color: #ddd;
-    background: #212531;
-    background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
-}
-
-.sidebar-nav .dropdown-menu {
-    position: relative;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    border-radius: 0;
-    border: none;
-    background-color: #222;
-    box-shadow: none;
-}
-
-.dropdown-menu.show {
-    top: 0;
-}
-
-.nav.sidebar-nav li a::before {
-    font-family: fontawesome;
-    vertical-align: baseline;
-    display: inline-block;
-    padding-right: 5px;
-}
-
-a[href*="#home"]::before {
-    content: "\f015" !important;
-}
-
-a[href*="#about"]::before {
-    content: "\f129" !important;
-}
-
-a[href*="#events"]::before {
-    content: "\f073" !important;
-}
-
-a[href*="#events"]::before {
-    content: "\f073" !important;
-}
-
-a[href*="#team"]::before {
-    content: "\f0c0" !important;
-}
-
-a[href*="#works"]::before {
-    content: "\f0b1" !important;
-}
-
-a[href*="#pictures"]::before {
-    content: "\f03e" !important;
-}
-
-a[href*="#videos"]::before {
-    content: "\f03d" !important;
-}
-
-a[href*="#books"]::before {
-    content: "\f02d" !important;
-}
-
-a[href*="#art"]::before {
-    content: "\f1fc" !important;
-}
-
-a[href*="#awards"]::before {
-    content: "\f02e" !important;
-}
-
-a[href*="#services"]::before {
-    content: "\f013" !important;
-}
-
-a[href*="#contact"]::before {
-    content: "\f086" !important;
-}
-
-a[href*="#followme"]::before {
-    content: "\f099" !important;
-    color: #0084b4;
-}
 
 .hamburger {
     position: fixed;
