@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SysGymT.AccesoADatos
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.AccesoADatos\
+=======
+build_property.ProjectDir = C:\Users\repco\source\repos\SysGymTechFinal1\SysGymT.AccesoADatos\
+>>>>>>> 4f67df5cccf41a03bc7327fb32517070277c91b3
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
