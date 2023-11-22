@@ -3138,3 +3138,4 @@ C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.UI.AppWebAspCore\obj\D
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.UI.AppWebAspCore\obj\Debug\net6.0\SysGymT.UI.AppWebAspCore.pdb
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.UI.AppWebAspCore\obj\Debug\net6.0\SysGymT.UI.AppWebAspCore.genruntimeconfig.cache
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.UI.AppWebAspCore\obj\Debug\net6.0\ref\SysGymT.UI.AppWebAspCore.dll
+C:\Users\repco\source\repos\SysGymTechFinal1\SysGymT.UI.AppWebAspCore\obj\Debug\net6.0\SysGymT.UI.AppWebAspCore.sourcelink.json

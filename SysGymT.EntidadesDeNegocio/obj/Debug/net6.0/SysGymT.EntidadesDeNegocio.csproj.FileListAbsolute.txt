@@ -180,3 +180,4 @@ C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.EntidadesDeNegocio\obj
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.EntidadesDeNegocio\obj\Debug\net6.0\SysGymT.EntidadesDeNegocio.pdb
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.EntidadesDeNegocio\obj\Debug\net6.0\SysGymT.EntidadesDeNegocio.genruntimeconfig.cache
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.EntidadesDeNegocio\obj\Debug\net6.0\ref\SysGymT.EntidadesDeNegocio.dll
+C:\Users\repco\source\repos\SysGymTechFinal1\SysGymT.EntidadesDeNegocio\obj\Debug\net6.0\SysGymT.EntidadesDeNegocio.sourcelink.json

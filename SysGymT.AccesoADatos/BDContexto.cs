@@ -17,6 +17,8 @@ namespace SysGymT.AccesoADatos
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<Bill> Bill { get; set; }
+        public DbSet<Sale> Sale { get; set; }
+        public DbSet<Details> Details { get; set; }
 
 
 

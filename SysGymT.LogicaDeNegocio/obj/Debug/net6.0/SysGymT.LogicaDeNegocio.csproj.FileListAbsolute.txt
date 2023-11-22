@@ -245,3 +245,4 @@ C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.LogicaDeNegocio\obj\De
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.LogicaDeNegocio\obj\Debug\net6.0\SysGymT.LogicaDeNegocio.pdb
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.LogicaDeNegocio\obj\Debug\net6.0\SysGymT.LogicaDeNegocio.genruntimeconfig.cache
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.LogicaDeNegocio\obj\Debug\net6.0\ref\SysGymT.LogicaDeNegocio.dll
+C:\Users\repco\source\repos\SysGymTechFinal1\SysGymT.LogicaDeNegocio\obj\Debug\net6.0\SysGymT.LogicaDeNegocio.sourcelink.json

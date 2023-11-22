@@ -219,3 +219,4 @@ C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.AccesoADatos\obj\Debug
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.AccesoADatos\obj\Debug\net6.0\SysGymT.AccesoADatos.pdb
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.AccesoADatos\obj\Debug\net6.0\SysGymT.AccesoADatos.genruntimeconfig.cache
 C:\Users\ALUMNO\Desktop\PSGEsfe1\SysGymTechFinal1\SysGymT.AccesoADatos\obj\Debug\net6.0\ref\SysGymT.AccesoADatos.dll
+C:\Users\repco\source\repos\SysGymTechFinal1\SysGymT.AccesoADatos\obj\Debug\net6.0\SysGymT.AccesoADatos.sourcelink.json
