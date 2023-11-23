@@ -19,15 +19,15 @@ namespace SysGymT.EntidadesDeNegocio
         [Required]
         [DisplayName("Productos")]
         public int Id_products { get; set; }
-
-
+        public decimal SalePrice { get; set; }
+        public decimal SubTotal  { get; set; }
         [Required]
         [DisplayName("Cantidad")]
         public int Quantity { get; set; }
-
-
         [Required]
         [DisplayName("Fecha de venta")]
-        public string DateSale { get; set; }
+        public DateTime CreationsDate { get; set; }
+        public Sale Sale { get; set; }
+        public List<Products> Products { get; set; }
     }
 }

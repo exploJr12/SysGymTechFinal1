@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel;
+using System.Globalization;
 
 namespace SysGymT.EntidadesDeNegocio
 {
@@ -13,36 +14,24 @@ namespace SysGymT.EntidadesDeNegocio
     {
         [Key]
         public int IdSale { get; set; }
-
-
-
         [DisplayName("Usuario")]
         public int Id_Usuario { get; set; }
-
-
-
         [DisplayName("Cliente")]
         public int Id_Customer { get; set; }
-
-
         [Required]
         [DisplayName("Detalles de venta")]
         public string IdDetails { get; set; }
-
-
         [Required]
-        [DisplayName("Descripcion")]
-        public string Descriptions { get; set; }
-
-
+        [DisplayName("Monto a pagar")]
+        public decimal AmountPage { get; set; }
         [Required]
-        [DisplayName("Monto")]
-        public int Amount { get; set; }
-
-
+        [DisplayName("Monto de cambio")]
+        public decimal AmountChanges { get; set; }
         [Required]
         [DisplayName("Monto total")]
-        public int TotalAmount { get; set; }
-
+        public decimal TotalAmount { get; set; }
+        public List<Details> Details { get; set; }
+        public List<Usuario> Usuarios { get; set;}
+        public List<Customer> Customers { get; set; }
     }
 }

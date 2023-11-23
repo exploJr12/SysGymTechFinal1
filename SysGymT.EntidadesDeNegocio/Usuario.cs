@@ -31,6 +31,7 @@ namespace SysGymT.EntidadesDeNegocio
         [Display(Name = "Fecha registro")]
         public DateTime FechaRegistro { get; set; }
         public Rol Rol { get; set; }
+        public Sale Sale { get; set; }
         public List<Machines> Machines{get; set;}
         [NotMapped]
         public int Top_Aux { get; set; }
