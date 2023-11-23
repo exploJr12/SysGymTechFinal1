@@ -17,7 +17,7 @@ namespace SysGymT.AccesoADatos
         public DbSet<Products> Products { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Service> Services { get; set; }
-        public DbSet<Sale> Sale { get; set; }
+       // public DbSet<Sale> Sale { get; set; }
         public DbSet<Details> Details { get; set; }
 
 

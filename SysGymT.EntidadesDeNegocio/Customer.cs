@@ -33,7 +33,7 @@ namespace SysGymT.EntidadesDeNegocio
         [Required(ErrorMessage = "La membresia es obligatorio")]
         [StringLength(30, ErrorMessage = "Maximo 30 caracteres")]
         public string Membership { get; set; }
-        public Sale Sale { get; set; }
+        //public Sale Sale { get; set; }
         [NotMapped]
         public int Top_Aux { get; set; }
     }

@@ -97,6 +97,16 @@ namespace SysGymT.AccesoADatos
                 throw new Exception("Error in GetById method of DetailsDAL");
             }
         }
+        //internal static IQueryable<Details> QuerySelect(IQueryable<Details> pQuery, Details pDetails)
+        //{
+        //    if(pDetails.IdDetails >0)
+        //        pQuery = pQuery.Where(d => d.IdDetails == pDetails.IdDetails);
+        //    if (pDetails.Id_products > 0)
+        //        pQuery = pQuery.Where(d => d.Id_products == pDetails.Id_products);
+        //    if(pDetails.SalePrice >0M)
+        //        pQuery = 
+        //    return pQuery;
+        //}
 
         public static async Task<List<Details>> GetAll()
         {

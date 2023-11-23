@@ -27,7 +27,8 @@ namespace SysGymT.EntidadesDeNegocio
         [Required]
         [DisplayName("Fecha de venta")]
         public DateTime CreationsDate { get; set; }
-        public Sale Sale { get; set; }
         public List<Products> Products { get; set; }
+        [NotMapped]
+        public int Top_Aux { get; set; }
     }
 }
