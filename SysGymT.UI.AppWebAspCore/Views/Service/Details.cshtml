@@ -4,10 +4,10 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<link rel="stylesheet" href="~/css/machines/create.css">
 
-<div>
-    <h4>Service</h4>
+<div class="row main-div text-center">
+    <h4>Detalles del serivico</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -23,8 +23,7 @@
             @Html.DisplayFor(model => model.Descryption)
         </dd>
     </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id_Service">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <div>
+        <a asp-action="Index" class="btn btn-danger ml-2">Regresar a la Lista</a>
+    </div>
 </div>

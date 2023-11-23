@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+eZOIUc+Htr7tOChpE5BiOvAAazbWvqWBldYI/P24uNUynBDhkiuwKoUuj1XCTLMCHA587xgjqw4vgy0EK18sA==",
+  "dgSpecHash": "fE268rz9CFZrrcJl3hL2hW3oBcTNNHGCl5rDsfUW/WovaJfefzCoYQyC1l9urERiLjtb39ucUE51zpDiKJMuqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ALUMNO\\Desktop\\PSGEsfe1\\SysGymTechFinal1\\SysGymTechAPI\\SysGymTechAPI.csproj",
+  "projectFilePath": "C:\\Users\\ALUMNO\\Desktop\\PEO\\SysGymTechFinal1\\SysGymTechAPI\\SysGymTechAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ALUMNO\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ALUMNO\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

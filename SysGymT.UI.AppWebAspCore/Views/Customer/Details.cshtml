@@ -4,10 +4,13 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<link rel="stylesheet" href="~/css/machines/create.css">
 
-<div>
+
+
+<div class="row main-div text-center">
     <h4>Customer</h4>
+    <h1>Detalles de Clientes</h1>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -65,8 +68,7 @@
             @Html.DisplayFor(model => model.Membership)
         </dd>
     </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id_Customer">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <div>
+        <a asp-action="Index" class="btn btn-danger ml-2">Regresar a la Lista</a>
+    </div>
 </div>

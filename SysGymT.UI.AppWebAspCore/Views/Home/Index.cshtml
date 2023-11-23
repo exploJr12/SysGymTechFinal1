@@ -4,7 +4,74 @@
 
 <link rel="stylesheet" href="~/css/machines/create.css">
 
-<div class="text-center">
-    <h1 class="display-4">Bienvenido</h1>
-    <p>Sobre <a target="_blank" href="https://www.instagram.com/omarxdelproo1/">Nosotros</a>...</p>
+<div class="container mt-4 text-light">
+    <h3>Bienvenido a GymTech</h3>
+
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://picsum.photos/1200/400?random=1" class="d-block w-100" alt="Primera imagen">
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1200/400?random=2" class="d-block w-100" alt="Segunda imagen">
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/1200/400?random=3" class="d-block w-100" alt="Tercera imagen">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <div class="mt-4">
+        <p>
+            Bienvenido a SysGymTech, tu destino para lograr tus metas de fitness. Ofrecemos una amplia gama de equipos
+            de última generación, clases emocionantes y entrenadores expertos para ayudarte a alcanzar tus objetivos.
+        </p>
+
+        <p>
+            ¡Únete a nosotros hoy y comienza tu viaje hacia un estilo de vida más saludable y activo!
+        </p>
+    </div>
+
+    <div class="mt-4">
+        <h4 class="mb-3">Ejercicios Populares</h4>
+        <div class="list-group exercise-list">
+            <a href="#" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#weightlifting-content">
+                Peso Muerto
+            </a>
+            <div id="weightlifting-content" class="exercise-content collapse">
+                <p>El peso muerto es un ejercicio de levantamiento de pesas que involucra </p>
+                <p>levantar una barra cargada desde el suelo hasta la cadera, utilizando</p>
+                <p>principalmente los músculos de la espalda, glúteos y piernas.</p>
+                <p>Es una técnica fundamental en entrenamiento de fuerza y desarrollo muscular.</p>
+            </div>
+        </div>
+        <div class="list-group exercise-list">
+            <a href="#" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#weightlifting-content">
+                Peso Muerto
+            </a>
+            <div id="weightlifting-content" class="exercise-content collapse">
+                <p>El peso muerto es un ejercicio de levantamiento de pesas que involucra </p>
+                <p>levantar una barra cargada desde el suelo hasta la cadera, utilizando</p>
+                <p>principalmente los músculos de la espalda, glúteos y piernas.</p>
+                <p>Es una técnica fundamental en entrenamiento de fuerza y desarrollo muscular.</p>
+            </div>
+        </div>
+    </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    function toggleExerciseContent(exerciseId) {
+        $('#' + exerciseId + '-content').collapse('toggle');
+    }
+</script>

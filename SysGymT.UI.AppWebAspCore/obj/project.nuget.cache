@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RM/5WtG8t++w5W4Ifk7CQ+BYLcfzT6DMbrGlMGyXyZvW2sMJ1Arl1lzKxgdZrOWMJHiVGqsNtYIXiGvjvqmPjg==",
+  "dgSpecHash": "H01noIuqoW98UUxqzEt3iA4tdV69LsfgLyo3g2bElTbmTGwy0Z0jU4L13TwzUfwOLE6uE5PbJaH1K/SLG6BqBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ALUMNO\\Desktop\\PSGEsfe1\\SysGymTechFinal1\\SysGymT.UI.AppWebAspCore\\SysGymT.UI.AppWebAspCore.csproj",
+  "projectFilePath": "C:\\Users\\ALUMNO\\Desktop\\PEO\\SysGymTechFinal1\\SysGymT.UI.AppWebAspCore\\SysGymT.UI.AppWebAspCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ALUMNO\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ALUMNO\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
