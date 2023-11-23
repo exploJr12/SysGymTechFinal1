@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SysGymT.UI.AppWebAspCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b88273639dd25fbcfc0d6b903494aafd394eaa06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b871c7d6447eeef8a73c911ca6844b39aa2b9653")]
 [assembly: System.Reflection.AssemblyProductAttribute("SysGymT.UI.AppWebAspCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SysGymT.UI.AppWebAspCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

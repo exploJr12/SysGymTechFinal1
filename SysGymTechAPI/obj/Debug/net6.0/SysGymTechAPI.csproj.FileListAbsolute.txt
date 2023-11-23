@@ -1630,3 +1630,4 @@ C:\Users\repco\source\repos\SysGymTechFinal1\SysGymTechAPI\obj\Debug\net6.0\scop
 C:\Users\repco\source\repos\SysGymTechFinal1\SysGymTechAPI\obj\Debug\net6.0\SysGymTechAPI.csproj.CopyComplete
 C:\Users\repco\source\repos\SysGymTechFinal1\SysGymTechAPI\obj\Debug\net6.0\SysGymTechAPI.genruntimeconfig.cache
 C:\Users\repco\source\repos\SysGymTechFinal1\SysGymTechAPI\obj\Debug\net6.0\ref\SysGymTechAPI.dll
+C:\Users\repco\source\repos\SysGymTechFinal1\SysGymTechAPI\obj\Debug\net6.0\SysGymTechAPI.sourcelink.json
