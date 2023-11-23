@@ -84,3 +84,7 @@ a {
 .form-check-input {
     margin-top: 5px; /* Ajusta el espacio entre el label y el checkbox */
 }
+
+.my-custom-popup-class {
+    border: 2px solid #f8d81c; /* Reemplaza con tu color amarillo personalizado */
+}

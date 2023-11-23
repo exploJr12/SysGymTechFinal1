@@ -4,10 +4,11 @@
     ViewData["Title"] = "Delete";
 }
 
-<link rel="stylesheet" href="~/css/services//windows.css">
+<link rel="stylesheet" href="~/css/services/windows.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
 
 <div class="main-div">
-    <h3>Se eliminara el siguiente registro:</h3>
+    <h3>Se eliminará el siguiente registro:</h3>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -24,9 +25,42 @@
         </dd>
     </dl>
 
-    <form asp-action="Delete">
+    <form asp-action="Delete" id="deleteForm">
         <input type="hidden" asp-for="Id_Service" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        |
         <a asp-action="Index" class="btn btn-warning">Back to List</a>
     </form>
 </div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var deleteForm = document.getElementById("deleteForm");
+
+            if (deleteForm) {
+                deleteForm.addEventListener("submit", function (event) {
+                    event.preventDefault();
+
+                    Swal.fire({
+                        title: '¿Estás seguro?',
+                        text: 'Esta acción no se puede deshacer',
+                        icon: 'warning',
+                        iconColor: '#000',
+                        showCancelButton: true,
+                        confirmButtonColor: '#d33',
+                        cancelButtonColor: '#000',
+                        confirmButtonText: 'Sí, eliminarlo',
+                        background: '#ffc107'
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            // Si se confirma, enviar el formulario
+                            deleteForm.submit();
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+}

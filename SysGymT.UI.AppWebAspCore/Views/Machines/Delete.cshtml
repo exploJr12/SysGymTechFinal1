@@ -4,10 +4,12 @@
     ViewData["Title"] = "Delete";
 }
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <link rel="stylesheet" href="~/css/machines/create.css">
 
 <div class="row main-div text-center">
-    <h3>Se eliminara el siguiente registro:</h3>
+    <h3>Se eliminará el siguiente registro:</h3>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -60,9 +62,32 @@
         </dd>
     </dl>
 
-    <form asp-action="Delete">
+    <form id="deleteForm" asp-action="Delete" method="post">
         <input type="hidden" asp-for="Id_Machines" />
-        <input type="submit" value="Delete" class="btn btn-danger" />
-        <a asp-action="Index" class="btn btn-warning ml-2">Volver a la lista</a>
+        <button type="button" class="btn btn-danger" onclick="confirmDelete()">Eliminar</button>
+        <a asp-action="Index" class="btn btn-warning ml-2" id="cancelButton">Volver a la lista</a>
     </form>
 </div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function confirmDelete() {
+            Swal.fire({
+                title: '¿Estás seguro?',
+                text: 'Esta acción no se puede deshacer',
+                icon: 'warning',
+                iconColor: '#000',
+                showCancelButton: true,
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#000',
+                confirmButtonText: 'Sí, eliminarlo',
+                background: '#ffc107'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    document.getElementById("deleteForm").submit();
+                }
+            });
+        }
+    </script>
+}

@@ -6,6 +6,7 @@
 
 <head>
     <link rel="stylesheet" href="~/css/customer/windows.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
 </head>
 
 <div class="row">
@@ -13,13 +14,14 @@
         <h1 class="create-title">Crear cliente</h1>
         <hr />
 
-        <form asp-action="Create">
+        <form asp-action="Create" id="createForm">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Name_Customer" class="control-label"></label>
                 <input asp-for="Name_Customer" class="form-control" />
                 <span asp-validation-for="Name_Customer" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="Last_Name" class="control-label"></label>
                 <input asp-for="Last_Name" class="form-control" />
@@ -70,18 +72,51 @@
                 </select>
                 <span asp-validation-for="Membership" class="text-danger"></span>
             </div>
+
             <div class="form-group text-center">
                 <input type="submit" value="Create" class="btn btn-warning" />
-
-                <a asp-action="Index" class="btn btn-danger ml-2">Cancelar</a>
+                <a asp-action="Index" class="btn btn-danger ml-2" id="cancelButton">Cancelar</a>
             </div>
         </form>
     </div>
 </div>
 
-
 @section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var cancelButton = document.getElementById("cancelButton");
+            if (cancelButton) {
+                cancelButton.style.marginRight = "200px";
+            }
+
+            var createForm = document.getElementById("createForm");
+
+            if (createForm) {
+                createForm.addEventListener("submit", function (event) {
+                    event.preventDefault();
+
+                    Swal.fire({
+                        title: '¡Creado!',
+                        text: 'El cliente se ha creado exitosamente',
+                        icon: 'success',
+                        showCancelButton: false,
+                        confirmButtonColor: '#000',
+                        confirmButtonText: 'Aceptar',
+                        allowOutsideClick: false,
+                        background: '#ffc107',
+                        iconColor: '#000'
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            createForm.submit();
+                        }
+                    });
+                });
+            }
+        });
+    </script>
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+</script>

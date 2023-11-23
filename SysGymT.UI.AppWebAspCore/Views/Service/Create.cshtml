@@ -6,14 +6,14 @@
 
 <head>
     <link rel="stylesheet" href="~/css/services/windows.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
 </head>
-
 
 <div class="row">
     <div class="col-md-4 main-div">
         <h1>Create</h1>
         <hr />
-        <form asp-action="Create">
+        <form asp-action="Create" id="createForm">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Name_Service" class="control-label"></label>
@@ -28,10 +28,55 @@
             <div class="form-group text-center">
                 <input type="submit" value="Create" class="btn btn-warning" />
 
-                <a asp-action="Index" class="btn btn-danger ml-2">Cancelar</a>
+                <a asp-action="Index" class="btn btn-danger ml-2" id="cancelButton">Cancelar</a>
             </div>
         </form>
     </div>
 </div>
 
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var cancelButton = document.getElementById("cancelButton");
+            if (cancelButton) {
+                cancelButton.style.marginRight = "200px";
+            }
 
+            var createForm = document.getElementById("createForm");
+
+            if (createForm) {
+                createForm.addEventListener("submit", function (event) {
+                    event.preventDefault();
+
+                    // Validar campos obligatorios
+                    var nameService = document.getElementById("Name_Service").value;
+                    var descryption = document.getElementById("Descryption").value;
+
+                    if (nameService && descryption) {
+                        // Campos llenos, mostrar la alerta
+                        Swal.fire({
+                            title: '¡Creado!',
+                            text: 'El servicio se ha creado exitosamente',
+                            icon: 'success',
+                            showCancelButton: false,
+                            confirmButtonColor: '#000',
+                            confirmButtonText: 'Aceptar',
+                            allowOutsideClick: false,
+                            background: '#ffc107',
+                            iconColor: '#000'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                createForm.submit();
+                            }
+                        });
+                    }
+                });
+            }
+        });
+    </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+</script>
