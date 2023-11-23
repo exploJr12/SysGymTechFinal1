@@ -1,5 +1,4 @@
-﻿DetailsDAL
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.PortableExecutable;
@@ -14,14 +13,14 @@ namespace SysGymT.AccesoADatos
     {
 
         /* CREATE METHOD */
-        public static async Task<int> Create(Details details)
+        public static async Task<int> Create(Details pDetails)
         {
             try
             {
                 int result = 0;
                 using (var bdContext = new BDContexto())
                 {
-                    bdContext.Add(details);
+                    bdContext.Add(pDetails);
                     result = await bdContext.SaveChangesAsync();
                 }
                 return result;
@@ -35,24 +34,20 @@ namespace SysGymT.AccesoADatos
 
 
         /* MODIFY METHOD */
-        public static async Task<int> Modify(Details details)
+        public static async Task<int> Modify(Details pDetails)
         {
             try
             {
                 int result = 0;
                 using (var bdContext = new BDContexto())
                 {
-                    var findDetails = await bdContext.Details.FirstOrDefaultAsync(d => d.IdDetails == details.IdDetails);
-                    if (findDetails != null)
-                    {
-                        findDetails.Quantity = details.Quantity;
-                        findDetails.DateSale = details.DateSale;
-                        // ADD RELATIONS HERE
-                    }
-                    else
-                    {
-                        throw new Exception("El detalle no existe");
-                    }
+                    var details = await bdContext.Details.FirstOrDefaultAsync(d => d.IdDetails == pDetails.IdDetails);
+                    details.SubTotal = pDetails.SubTotal;
+                    details.SalePrice = pDetails.SalePrice;
+                    details.Quantity = pDetails.Quantity;
+                    details.CreationsDate = pDetails.CreationsDate;
+                    bdContext.Update(details);
+                    result = await bdContext.SaveChangesAsync();
                 }
                 return result;
             }
@@ -65,23 +60,16 @@ namespace SysGymT.AccesoADatos
 
         /* DELETE METHOD */
 
-        public static async Task<int> Delete(Details details)
+        public static async Task<int> Delete(Details pDetails)
         {
             try
             {
                 int result = 0;
                 using (var bdContext = new BDContexto())
                 {
-                    var findDetails = await bdContext.Details.FirstOrDefaultAsync(d => d.IdDetails == details.IdDetails);
-                    if (findDetails != null)
-                    {
-                        bdContext.Details.Remove(findDetails);
-                        result = await bdContext.SaveChangesAsync();
-                    }
-                    else
-                    {
-                        throw new Exception("Detalles no existe");
-                    }
+                    var details = await bdContext.Details.FirstOrDefaultAsync(d => d.IdDetails == pDetails.IdDetails);
+                    bdContext.Details.Remove(details);
+                    result = await bdContext.SaveChangesAsync();
                 }
                 return result;
             }
